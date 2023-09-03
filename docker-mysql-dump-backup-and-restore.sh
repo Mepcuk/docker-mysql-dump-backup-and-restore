@@ -5,4 +5,4 @@ docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > back
 cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE
 
 
-  P.s. CONTAINER = CONTAINER ID or NAMES (check via command "docker ps")
+#  P.s. CONTAINER = CONTAINER ID or NAMES (check via command "docker ps")
